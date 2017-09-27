@@ -1,4 +1,4 @@
-package netlex.app.settingsPage;
+package natlex.app.settingsPage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -22,7 +22,7 @@ public class SettingsPage {
     public void clickSettingsBtn() throws InterruptedException{
         WebElement dynamicElement = (new WebDriverWait(driver,10))
                 .until(ExpectedConditions.presenceOfElementLocated(settingsBtn));
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         WebElement btn = driver.findElement(settingsBtn);
         btn.click();
     }

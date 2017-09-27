@@ -1,4 +1,4 @@
-package netlex.app.navbarMenu;
+package natlex.app.navbarMenu;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

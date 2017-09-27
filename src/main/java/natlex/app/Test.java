@@ -1,14 +1,14 @@
-package netlex.app;
+package natlex.app;
 
 
 import junit.framework.Assert;
 import junit.framework.AssertionFailedError;
-import netlex.app.navbarMenu.NavbarMenu;
-import netlex.app.settingsPage.SettingsPage;
-import netlex.app.sideMenu.SideMenu;
-import netlex.app.signinForm.SignInForm;
-import netlex.app.signupForm.SignUpForm;
-import netlex.app.userPage.UserPage;
+import natlex.app.navbarMenu.NavbarMenu;
+import natlex.app.settingsPage.SettingsPage;
+import natlex.app.signinForm.SignInForm;
+import natlex.app.signupForm.SignUpForm;
+import natlex.app.userPage.UserPage;
+import natlex.app.sideMenu.SideMenu;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -61,7 +61,6 @@ public class Test {
         //переключение м/у вкладками (на вкладку почты)
         switchWindows(driver,1);
         waitJS(driver);
-        //Thread.sleep(1000);
         String address = Mail.getAddress();
         switchWindows(driver,0);
 
@@ -73,6 +72,7 @@ public class Test {
         navbarMenu.clickHamburgerBtn();
         sideMenu.clickSettingsBtn();
         settingsPage.clickSettingsBtn();
+        Thread.sleep(1000);
         settingsPage.sendPicture();
 
         String userName = userPage.getUserName();

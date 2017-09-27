@@ -1,4 +1,4 @@
-package netlex.app.signinForm;
+package natlex.app.signinForm;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

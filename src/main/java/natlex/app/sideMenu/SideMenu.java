@@ -1,4 +1,4 @@
-package netlex.app.sideMenu;
+package natlex.app.sideMenu;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package netlex.app.userPage;
+package natlex.app.userPage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
