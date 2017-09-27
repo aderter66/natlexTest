@@ -83,7 +83,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/netlexTest.iml" filepath="$PROJECT_DIR$/netlexTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/natlexTest.iml" filepath="$PROJECT_DIR$/natlexTest.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" />
